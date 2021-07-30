@@ -1,0 +1,124 @@
+body{
+    background-image:url(https://cutewallpaper.org/21/paw-print-wallpaper/Dog-Paw-Cat-Paw-Seamless-Pattern-Bear-Vector-Isolated-.jpg)
+}
+
+header{
+    display:flex;
+    flex-flow:row;
+}
+
+.caixa1{
+background-color: #9662c6f8;
+color: snow;
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: gray;
+box-shadow: 2px 2px 8px 2px rgb(0, 0, 0);
+text-align:left;
+width: 75%;
+transition: 0.2s;
+}
+
+.caixa2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #c6aedbee;
+    text-decoration:underline;
+    text-decoration-color: lightgray;
+    box-shadow: 2px 2px 8px 2px rgb(0, 0, 0);
+    width: 25%;
+    transition: 0.2s;
+}
+.home{
+    box-shadow: 1px 1px 5px 1px lightgray;
+    background-color:#c6aedb;
+    width: 80px;
+    border-radius: 10%;
+
+}
+
+.sobre{
+    box-shadow: 1px 1px 5px 1px lightgray;
+    background-color:#c6aedb;
+    width: 80px;
+    border-radius: 10%;
+
+}
+
+.contato{
+    box-shadow: 1px 1px 5px 2px lightgray;
+    background-color:#c6aedb;
+    width: 80px;
+    border-radius: 10%;
+}
+
+h1{
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px lightgray;
+    background-color:#c6aedbec;
+    color: #f7630c;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+}
+.caixa3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 5%;
+   background-color: #d0b3e7f5;
+   border-radius: 50%;
+   border: none;
+}
+
+img{
+    transition: 0.2s;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+#rex:hover, #luna:hover, #josias:hover, #elias:hover, #amora:hover, #julinho:hover, #bartolomeu:hover, #bob:hover {
+margin: -0.8%;
+padding: -0.8%;
+transition-duration: 0.2s;
+transition-timing-function: ease-in-out;
+}
+
+.caixa1:hover{
+    font-size: 18px;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.home:hover, .contato:hover, .sobre:hover{
+
+    background-color:lightgray;
+    box-shadow: 1px 1px 5px 1px snow;
+    transition-duration: 0.2s;
+}
+
+footer{
+    text-align: center;
+    color: snow;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.733);
+    background-color: #9662c6e1;
+    width: 100%;
+   
+}
+
+@media (max-width: 700px){
+    .caixa1{
+        display: none;
+    }
+    .caixa2{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 10%;
+    }
+}
